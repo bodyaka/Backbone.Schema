@@ -1,0 +1,42 @@
+{
+  "name": "Backbone.Schema",
+  "main": "dist/backbone.schema.min.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dnemoga/Backbone.Schema",
+  "authors": [
+    "Dmytro Nemoga <Dmytro.Nemoga@gmail.com>"
+  ],
+  "description": "This plugin allow you define schemas for your models. It provides type control, computable properties, references between models and collections, filters and localization.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "backbone",
+    "schema"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "lib",
+    "src",
+    "BANNER",
+    "Gruntfile.js",
+    "karma.conf.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "backbone": "1.0.0 - 1.1.2",
+    "underscore": "1.4.4 - 1.6.0"
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.0.0",
+    "globalize": "~0.1.0",
+    "jquery": "~2.1.0"
+  }
+}
